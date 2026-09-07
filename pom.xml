@@ -30,6 +30,7 @@
     <modules>
         <module>ms-usuarios</module>
         <module>ms-productos</module>
+        <module>api.gateway</module>
     </modules>
 
 </project>

@@ -34,7 +34,7 @@ public class UsuarioController {
         return ResponseEntity.status(HttpStatus.OK).body(usuarioService.obtenerUsuarioPorId(id));
     }
 
-    @PostMapping
+    @PostMapping("/crear")
     public ResponseEntity<UsuarioResponseDTO> crearUsuario(@Valid @RequestBody UsuarioRequestDTO usuarioDTO){
 
         //Mapper para convertir de DTO a entidad
